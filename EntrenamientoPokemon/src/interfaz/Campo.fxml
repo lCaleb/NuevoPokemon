@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="interfaz.CampoController">
+   <children>
+      <ImageView fx:id="objeto" fitHeight="120.0" fitWidth="122.0" layoutX="578.0" layoutY="456.0" onMouseClicked="#entrenar" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="guardar" layoutX="578.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#guardar" prefHeight="43.0" prefWidth="122.0" text="Guardar Puntaje" textFill="#099abd">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="428.0" layoutY="199.0" prefHeight="43.0" prefWidth="149.0" text="Puntaje:      0" textFill="#0ab3bf">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="puntaje" editable="false" layoutX="415.0" layoutY="199.0" prefHeight="43.0" prefWidth="163.0" text="Puntaje:    0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

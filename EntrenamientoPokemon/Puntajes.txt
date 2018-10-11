@@ -1,0 +1,6 @@
+NOMBRES  POKEMONES  PUNTAJES
+Maykol S  pikachu  Puntaje: 427
+CalebVilladiego  bulbasaur  Puntaje: 163
+OtroSujeto  charizard  Puntaje: 199
+UnaSujeta  gyarados  Puntaje: 130
+Jorgito perez  jolteon  Puntaje: 352

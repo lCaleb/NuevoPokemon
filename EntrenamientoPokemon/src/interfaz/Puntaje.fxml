@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="interfaz.PuntajeController">
+   <children>
+      <ScrollPane layoutX="137.0" layoutY="8.0" prefHeight="390.0" prefWidth="454.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="380.0" prefWidth="454.0">
+               <children>
+                  <ListView fx:id="puntajes" prefHeight="375.0" prefWidth="441.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
